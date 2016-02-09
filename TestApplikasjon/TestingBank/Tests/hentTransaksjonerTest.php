@@ -9,7 +9,7 @@ class hentTransaksjonerTest extends PHPUnit_Framework_TestCase {
     public function testDatoFeilTransaksjoner() 
     {
         // arrange
-        $kontoNr = "10502023523";
+        $kontoNr = "10502023523";//promp
         $fraDato = '2015-03-27';
         $tilDato = '2015-03-22';
         $bank=new Bank(new DBStub());
