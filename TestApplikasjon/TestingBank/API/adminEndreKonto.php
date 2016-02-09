@@ -1,6 +1,6 @@
 <?php
 include_once 'apiAdminHeader.php';
-//hahahahahaahahha
+
 $konto = new konto();
 $konto->personnummer = $_POST["personnummer"];
 $konto->kontonummer  = $_POST["kontonummer"];
